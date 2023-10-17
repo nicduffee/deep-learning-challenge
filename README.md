@@ -32,6 +32,41 @@ _Figure 2_
 ![image](https://github.com/nicduffee/deep-learning-challenge/assets/91498217/d978ee50-e19b-4627-a625-31ff15a384ce) </br>
 _Figure 3_
 
+### Compiling, Training, and Evaluating the Model
+
+- How many neurons, layers, and activation functions did you select for your neural network model?
+
+The original model utilized 2 Hidden Layers, both utilizing the `"relu"` activation function and an Output layer as configured below in _Figure 4_. </br>
+
+![image](https://github.com/nicduffee/deep-learning-challenge/assets/91498217/c03ef993-1770-4ba2-ae6c-ca4cfc5a5feb) </br>
+_Figure 4_
+
+In the optimized model we attemped to reach 75% accurary with a combination of adjusting the number of neurons, adding more layers and changing the activation functions. _Figure 5_ shows our final configuration. </br>
+
+![image](https://github.com/nicduffee/deep-learning-challenge/assets/91498217/5428ea83-aa43-4ee0-a9c2-fd92c64168ca) </br>
+_Figure 5_
+
+- Were you able to achieve the target model performance?
+
+Unfortunately, No meaningful improvement in model performance was seen between Original and Optimization. </br>
+
+Original </br>
+![image](https://github.com/nicduffee/deep-learning-challenge/assets/91498217/901ea3d9-b588-4efa-98a3-80cc61d573b2) </br>
+_Figure 6_
+
+Optimized </br>
+![image](https://github.com/nicduffee/deep-learning-challenge/assets/91498217/e3f9dadb-11f8-4f4b-9ebd-f31998fee74f) </br>
+_Figure 7_
+
+### Summary
+
+We designed a neural network that can predict if an Alphabet Soup-funded organization will be successful with ~73% accurary. We attempted to optimize the model to increase accurary, however we were unsuccessful in this. 
+
+
+
+
+
+
 
 
 
